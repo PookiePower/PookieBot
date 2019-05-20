@@ -1,0 +1,11 @@
+const Discord = require('discord.js')
+
+module.exports.run = async (msg, agrs) => {
+    msg.reply('petit test :hugging: ')
+}
+
+module.exports.config = {
+    name: "testpookie",
+    args: "",
+    description: "Pas besoin de tester"
+}
